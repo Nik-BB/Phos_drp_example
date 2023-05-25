@@ -13,7 +13,7 @@ The goal of DRP is to predict how effective different drugs are for different ca
 Here we predict the I50 values, the concentration of a drug needed to inhibit the activity of a cell lie by 50%, as a measure of efficacy. 
 We feed phosphoproteomics profiles of cell lines and simple column representaions of drugs though a neural network to do this. 
 
-Consider the traning set $T = '\{ \boldsymbol{x_{c,i}}, \boldsymbol{x_{d,i}}, y_i\}'$ where 
+Consider the traning set $T = \{ \boldsymbol{x_{c,i}}, \boldsymbol{x_{d,i}}, y_i\} $ where 
 $\boldsymbol{x_{c,i}}$, $\boldsymbol{x_{d,i}}$  are representation of the $i^{th}$ cell line and drug respectively and
  $y_i$ is the IC50 value associated with the $i^{th}$ cell line drug pair.
 
